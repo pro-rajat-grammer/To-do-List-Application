@@ -1,0 +1,159 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 0);
+}
+
+
+
+#main {
+
+    background: url(https://images.pexels.com/photos/19779629/pexels-photo-19779629/free-photo-of-view-of-mountains-under-a-night-starry-sky.jpeg);
+
+    background-repeat: no-repeat;
+    background-size: 1440px 1000px;
+    height: 800px;
+    width: 100%;
+
+
+
+}
+
+#header {
+
+    /* background: rgb(11, 95, 22); */
+    background: rgba(0, 0, 0, 0.235);
+    /* Green background with 30% opacity */
+
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#header>h2 {
+    margin-left: 120px;
+    height: 50px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5em;
+    color: rgba(249, 164, 7, 0.852);
+    background-color: transparent;
+}
+
+#header>div {
+
+    /* background: red; */
+    margin-right: 120px;
+    height: 50px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2em;
+    background-color: transparent;
+
+
+}
+
+
+#header>div>a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+#input {
+
+    background: rgba(0, 0, 0, 0.651);
+    /* Green background with 30% opacity */
+
+    height: 70px;
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px auto;
+    margin-top: 200px;
+    border: 2px solid white;
+    border-radius: 10px;
+
+}
+
+#input>input {
+    height: 60px;
+    width: 570px;
+
+
+    border: 0px;
+    color: antiquewhite;
+    font-size: 2em;
+    margin-left: 20px;
+    background: transparent;
+
+}
+
+#input>button {
+    margin-right: 40px;
+    height: 35px;
+    width: 70px;
+    border-radius: 10px;
+    border: 0;
+    border: 1px solid white;
+    /* background: transparent ; */
+    background: rgba(0, 0, 0, 0.998);
+    /* Green background with 30% opacity */
+    color: antiquewhite;
+}
+
+
+#tasklist {
+    /* background-color: blue; */
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+
+
+}
+
+#tasklist>div {
+    height: 50px;
+    width: 700px;
+    /* background-color: rgb(19, 88, 47); */
+    background: rgba(0, 0, 0, 0.506);
+    /* Green background with 30% opacity */
+    color: antiquewhite;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 40px;
+
+}
+
+#tasklist>div>button {
+    margin-right: 0px;
+    height: 35px;
+    width: 70px;
+    border-radius: 10px;
+    border: 0;
+    border: 1px solid white;
+    /* background: transparent; */
+    background: rgba(0, 0, 0, 0.998);
+    /* Green background with 30% opacity */
+    color: antiquewhite;
+}
+
+#tasklist>div>h2{
+background-color: transparent;
+}
